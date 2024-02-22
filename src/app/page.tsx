@@ -1,7 +1,11 @@
+import Hero from "@/components/Hero";
+import Photos from "@/components/Photos";
+
 export default function Home() {
   return (
-    <main className="flex items-center justify-center py-20">
-      <p className="text-xl font-semibold">Tailwindyt test project</p>
+    <main>
+      <Hero />
+      <Photos />
     </main>
   );
 }

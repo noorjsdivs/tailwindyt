@@ -46,7 +46,6 @@ export default function typographyStyles({ theme }: PluginUtils) {
         "--tw-prose-pre-border": "transparent",
         "--tw-prose-th-borders": theme("colors.zinc.200"),
         "--tw-prose-td-borders": theme("colors.zinc.100"),
-
         "--tw-prose-invert-body": theme("colors.zinc.400"),
         "--tw-prose-invert-headings": theme("colors.zinc.200"),
         "--tw-prose-invert-links": theme("colors.teal.400"),
